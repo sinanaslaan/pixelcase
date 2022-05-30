@@ -1,0 +1,28 @@
+.member {
+    padding-top: 55px;
+
+    &__title {
+        font-size: 28px;
+        letter-spacing: 0px;
+        color: #191b2c;
+        opacity: 1;
+        @media (max-width: 575px) {
+            padding-bottom: 25px;
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 575px) {
+            flex-direction: column;
+        }
+
+    }
+
+    .button {
+        font-size: 18px;
+    }
+}

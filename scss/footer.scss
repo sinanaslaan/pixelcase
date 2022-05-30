@@ -1,0 +1,16 @@
+.footer {
+    background-color: #040404;
+    padding: 30px 30px;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+
+    &__title {
+        color: #ffffff;
+        opacity: 0.4;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+}

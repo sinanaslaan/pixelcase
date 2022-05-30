@@ -1,0 +1,12 @@
+.pagination {
+    padding-bottom: 101px;
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+
+        @media (max-width: 575px) {
+            gap: 10px;
+        }
+    }
+}
